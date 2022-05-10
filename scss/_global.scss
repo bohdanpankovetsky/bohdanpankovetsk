@@ -1,0 +1,137 @@
+html {
+	width: 100%;
+	font-family: 'Montserrat';
+	color: #FFFFFF;
+	font-weight: 300;
+	line-height: 1;
+	font-size: 16px;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+body {
+	overflow-x: hidden;
+	background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../images/bg.webp");
+	background-color: #2e3141;
+	background-size: auto, cover;
+	background-attachment: fixed, fixed;
+	background-position: center, center;
+	overflow: auto;
+	position: relative;
+}
+.container {
+	max-width: 1245px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.h2 {
+	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+	padding-bottom: 24px;
+	margin-bottom: 24px;
+	width: 100%;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 27px;
+	line-height: 40px;
+}
+.desc {
+	line-height: 28px;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+  border-color: #5b6ba6 !important;
+	outline: 1px;
+}
+.blue {
+	background: #0059a8;
+}
+.lightblue {
+	background: #389af1;
+}
+.bluesea {
+	background: #559bdb;
+}
+.green {
+	background: #009402;
+}
+.darkgreen {
+	background: #3a5a02;
+}
+.pink {
+	background: #b7068b;
+}
+.brown {
+	background: #b9550c;
+}
+.red {
+	background: #ae2a2a;
+}
+.violet {
+	background: #606;
+}
+.lightviolet {
+	background: #933093;
+}
+.yellow {
+	background: #beb205;
+}
+.b-popup.active {
+  display: block;
+}
+.b-popup {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 11;
+  overflow-y: auto;
+  display: none;
+}
+
+.b-popup .overlay {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.b-popup-content {
+  margin: 50px auto;
+  position: relative;
+  max-width: 80%;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.b-popup-inner {
+  // background: #FFFFFF;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.b-popup-title {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	padding: 20px;
+	background-color: #353849;
+}
+
+.b-popup-close {
+  position: absolute;
+  top: -32px;
+  right: 8px;
+  cursor: pointer;
+}
+.b-popup-img {
+	width: 100%;
+	img {
+		width: 100%;
+	}
+}
