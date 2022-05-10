@@ -41,9 +41,11 @@
     headerTop();
     $('.header-menu-button').on('click', function() {
       $('.header-mob-menu').addClass('active');
+      $('html').css('overflow-y', 'hidden');
     });
     $('.header-mob-close, .header-menu a').on('click', function() {
       $('.header-mob-menu').removeClass('active');
+      $('html').css('overflow-y', 'auto');
     });
 
   });
